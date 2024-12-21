@@ -5,8 +5,8 @@ from PIL import Image
 
 # Set up the Streamlit App
 st.set_page_config(page_title="Multimodal Chatbot with Gemini Flash", layout="wide")
-st.title("Multimodal Chatbot with Gemini Flash ⚡️")
-st.caption("Chat with Google's Gemini Flash model using image and text input to get lightning fast results. 🌟")
+st.title("Multimodal Chatbot with Gemini 2.0 Flash ⚡️")
+st.caption("Chat with Google's Gemini Flash model using image and text input to get lightning fast results By Martin Khristi. 🌟")
 
 # Get OpenAI API key from user
 api_key = st.text_input("Enter Google API Key", type="password")
